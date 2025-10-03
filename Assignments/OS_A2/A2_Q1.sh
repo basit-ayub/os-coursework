@@ -1,3 +1,14 @@
+
+#Question:
+##Write a modular Bash script with command-line switches to perform system administration tasks. 
+#Tasks include creating a user with sudo rights (-uc), listing installed packages (-ld), installing 
+#applications (-ins), configuring network settings (-ipcon), displaying help (-help), and 
+#verifying system setup (-verify). Each switch should call a separate function with proper error 
+#handling, and the script should print your name and roll number before execution. Use sudo 
+#where necessary.
+
+
+
 #!/bin/bash
 
 NAME="Abdul Basit--Noor Alam"

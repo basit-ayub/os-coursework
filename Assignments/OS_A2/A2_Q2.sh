@@ -1,3 +1,12 @@
+
+#Question:
+#Write a Bash script to automate directory backups. The script should accept a source and 
+#destination directory, validate inputs, create the destination if missing, generate a 
+#compressed .tar.gz backup with the format backup_<source>_<YYYY-MM-DD>.tar.gz, log 
+#activities with timestamps to backup.log, verify the backup, and provide a -help switch 
+#for usage instructions. Include proper error handling.
+
+
 #!/bin/bash
 
 

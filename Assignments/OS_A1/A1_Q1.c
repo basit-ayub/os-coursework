@@ -1,4 +1,15 @@
-//i233018_SE4B_OS_A1_Q1
+
+/*
+Question:
+Implement a CPU scheduling simulation using First Come First Serve (FCFS). 
+Each process should be represented by a Process Control Block (PCB) with 
+attributes: PID, State (New, Ready, Running, Waiting, Terminated), Burst Time, 
+I/O Requirement, and Interrupts. Use queues to manage Ready and Waiting states. 
+The scheduler must handle process execution, I/O events, and interrupts, 
+moving processes between Ready, Running, Waiting, and Terminated states 
+accordingly.
+*/
+
 #include <stdio.h>
 #include <stdbool.h>
 struct PCB

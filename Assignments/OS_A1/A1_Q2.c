@@ -1,3 +1,14 @@
+/*
+Question:
+Using the fork() system call, create a process tree where each process prints 
+a unique letter from A to H. The root process should print 'A', and each 
+subsequent child process should print the next letter in sequence (B, C, D... H). 
+The process hierarchy must follow the given branching structure, and each 
+process should print its assigned letter before terminating. Use fork() and 
+wait() properly to avoid zombie or orphan processes.
+*/
+
+
 #include <unistd.h>
 #include <stdio.h>
 #include <sys/wait.h>
